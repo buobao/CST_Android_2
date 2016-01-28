@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.joint.turman.app.widget.view.InputMethodRelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/inputAreaLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background">
+
+    <LinearLayout
+        android:id="@+id/scrollAreaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.joint.turman.app.widget.imageview.CustomShapeImageView
+            android:id="@+id/face"
+            android:layout_width="@dimen/space_90"
+            android:layout_height="@dimen/space_90"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_30"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            android:clickable="false"
+            custom:shape="circle" />
+
+        <RelativeLayout
+            android:id="@+id/login_InputView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_15"
+                android:layout_marginRight="@dimen/space_15"
+                android:layout_marginTop="@dimen/space_6"
+                android:background="@drawable/login_input" >
+
+                <com.joint.turman.app.widget.textview.ClearableEditText
+                    android:id="@+id/cell_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_45"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:hint="@string/hint_login_username"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/space_16"
+                    android:paddingRight="@dimen/space_12"
+                    android:singleLine="true"
+                    style="@style/TextViewBase.EditText"
+                    android:textSize="@dimen/space_16" />
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:layout_below="@+id/cell_username"
+                    android:layout_marginLeft="1.0px"
+                    android:layout_marginRight="1.0px"
+                    android:background="#ffcacdd1" />
+
+                <com.joint.turman.app.widget.textview.ClearableEditText
+                    android:id="@+id/cell_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_45"
+                    android:layout_below="@+id/line1"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hint_login_password"
+                    android:imeActionLabel="@string/login"
+                    android:imeOptions="actionGo"
+                    android:inputType="textPassword"
+                    android:maxLength="16"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/space_16"
+                    android:paddingRight="@dimen/space_12"
+                    style="@style/TextViewBase.EditText"
+                    android:textSize="@dimen/space_16" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/login_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignLeft="@+id/input"
+                android:layout_alignRight="@+id/input"
+                android:layout_below="@+id/input"
+                android:layout_marginTop="@dimen/space_20"
+                android:padding="@dimen/space_1" >
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_40"
+                    android:background="@drawable/btn_blue_block_selector"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="@string/login"
+                    android:textSize="@dimen/text_size_18" />
+
+                <Button
+                    android:id="@+id/btn_login_quick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:textColor="@color/gray"
+                    android:text="@string/login_quick"
+                    android:textSize="@dimen/text_size_14"
+                    android:visibility="gone"
+                    />
+
+                <Button
+                    android:id="@+id/btn_register_quick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:background="@null"
+                    android:layout_gravity="center"
+                    android:textColor="@color/gray"
+                    android:text="@string/register_quick"
+                    android:textSize="@dimen/text_size_14"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/space_15"
+        android:layout_marginRight="@dimen/space_15"
+        android:layout_marginBottom="@dimen/space_5" >
+
+        <Button
+            android:id="@+id/btn_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="left|center"
+            android:text="@string/forget_password"
+            android:textColor="#ff007aff"
+            android:textSize="16.0sp"
+            android:visibility="gone"
+            />
+
+
+
+    </RelativeLayout>
+
+</com.joint.turman.app.widget.view.InputMethodRelativeLayout>

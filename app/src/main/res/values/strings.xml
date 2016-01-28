@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CST</string>
+    <string name="app_name_chinese">工程泛联客</string>
+
+    <string name="btn_login_text">开始使用</string>
+
+
+    <string name="login">登录</string>
+    <string name="login_quick">快速登录</string>
+    <string name="register_quick">快速注册</string>
+    <string name="forget_password">忘记密码</string>
+
+    <string name="hint_login_username">请输入手机号</string>
+    <string name="hint_login_password">请输入密码</string>
+    <string name="login_success_message">登录成功</string>
+    <string name="tip_no_internet">当前无可用网络</string>
+    <string name="tip_please_input_username">请输入手机号码</string>
+    <string name="tip_please_input_password">请输入密码</string>
+    <string name="no_device_id">当前设备不可用</string>
+    <string name="loading">加载中</string>
+    <string name="loading_no_more">没有更多</string>
+
+    <string name="menu_profile">个人信息</string>
+    <string name="menu_client">客户一览</string>
+    <string name="menu_linkman">联系人一览</string>
+    <string name="menu_project">项目一览</string>
+    <string name="menu_check">考勤一览</string>
+    <string name="menu_feedback">反馈一览</string>
+    <string name="menu_communion">交流一览</string>
+    <string name="menu_notice">公告一览</string>
+    <string name="menu_settings">应用设置</string>
+
+    <!--bottom buttons text-->
+    <string name="bottom_message">我的消息</string>
+    <string name="bottom_project">当前项目</string>
+    <string name="bottom_knowledge">知识共享</string>
+
+
+</resources>

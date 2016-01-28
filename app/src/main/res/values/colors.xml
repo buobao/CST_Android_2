@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--main colors-->
+    <color name="main_blue">#00A2ED</color>
+    <color name="main_green">#40AA53</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="main_black">#353535</color>
+    <color name="main_red">#FFFD4B4A</color>
+    <color name="main_purple">#576B95</color>
+
+    <!--default colors-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="cst_window_background">#FFE9E8E5</color>
+
+    <!-- window -->
+    <color name="window_background">@color/cst_window_background</color>
+    <color name="guillotine_background">#444153</color>
+    <color name="selected_item_color">#30d1d5</color>
+
+    <!--basic color-->
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+
+    <color name="colorDark">#AF000000</color>
+    <color name="colorBlack">#FF333333</color>
+    <color name="colorRed">#FFFF0000</color>
+    <color name="colorGray">#FF666666</color>
+    <color name="colorLightGray">#FF9A9A9A</color>
+    <color name="colorLightestGray">#0A000000</color>
+    <color name="colorWhiteGray">#FFF5F5F5</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorOrange">#FFFF7700</color>
+    <color name="colorGreen">#FF449900</color>
+    <color name="colorBlue">#FF2277BB</color>
+    <color name="colorDarkBlue">#FF385487</color>
+
+    <!--Main foot-->
+    <color name="cst_foot_background">@color/colorWhite</color>
+    <color name="cst_foot_divider">#FFB4B5B5</color>
+    <color name="bottom_menu_bg">#fff9f9f9</color>
+    <color name="bottom_menu_text_selected">#00A2ED</color>
+    <color name="bottom_menu_text_checked">#00A2ED</color>
+    <color name="bottom_menu_text_nor">#ff707070</color>
+
+    <!-- tab -->
+    <color name="primarybar_background">@color/cst_foot_background</color>
+    <color name="primarybar_split_color">@color/cst_foot_divider</color>
+    <color name="primarybar_text_over">#00A2ED</color>
+    <color name="primarybar_text_nor">#282828</color>
+
+    <!--list-->
+    <color name="list_divider_color">#DADADA</color>
+    <color name="list_item_background_normal">@color/colorWhite</color>
+    <color name="list_item_background_pressed">#F1F1F1</color>
+
+    <color name="ui_dialog_list_text">#5E5E5E</color>
+
+    <!--text in dialog-->
+    <color name="text_dark">#af000000</color>
+    <color name="text_light">#3f000000</color>
+    <color name="light_gray">#1a000000</color>
+    <color name="lightest_gray">#0a000000</color>
+    <color name="bg_touch">@color/lightest_gray</color>
+    <color name="ui_dialog_divider">@color/list_divider_color</color>
+
+    <!-- TweetTextView -->
+    <color name="main_link_text_color">#FF507DAF</color>
+    <color name="timeline_clickable_text_highlighted_background">#FFBEDFFF</color>
+
+    <!-- fragment's tab colors -->
+    <color name="tab_selected_strip">@color/primarybar_text_over</color>
+    <color name="tab_strip_text_selected">@color/primarybar_text_over</color>
+    <color name="tab_strip_text_unselected">@color/primarybar_text_nor</color>
+    <color name="tab_strip_background">@color/window_background</color>
+
+
+    <!-- login -->
+    <color name="login_background">#FFE6E6E6</color>
+
+
+    <!--toolbar menu-->
+    <color name="menu_fragment_background">#B3000000</color>
+    <color name="menu_item_background">#f2f2f2</color>
+    <color name="menu_divider_color">#b5b5b5</color>
+    <color name="menu_text_color">#222222</color>
+
+</resources>
